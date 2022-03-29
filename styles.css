@@ -56,6 +56,18 @@ a:hover {
   color: white
 }
 
+.currentlink {
+  color:white;
+  text-decoration: underline;
+}
+
+h2
+{
+  color:#646463;
+  font-family: libre baskerville;
+
+}
+
 header {
   text-align: center;
   background: url('images/portland1.jpg') no-repeat top center ;
@@ -91,7 +103,7 @@ header .profile-image:hover {
   color: orange;
   font-family: tahoma;
   letter-spacing: .2em;
-  font-style: bold italic;
+  font-weight: 700;
 }
 .fetchquote {
   background-color:black;
@@ -131,11 +143,25 @@ header .profile-image:hover {
   transition: all .5s;
 }
 
+.largecardimage {
+  border-radius: 15px;
+  width: 250px;
+  height: 200px;
+  float: left;
+  margin: 0px 20px 20px 0px;
+  box-shadow: 0px 2px 2px 0px black;
+}
 
 
-.experience-center{
+.largecard-center{
   text-align: center;
 }
+
+
+.citelink {
+  color:white;
+}
+
 
 .accomplishments {
   display: inline-block;
@@ -159,17 +185,38 @@ header .profile-image:hover {
 
 
 
-.experienceimage {
-  border-radius: 15px;
-  width: 250px;
-  height: 200px;
-  float: left;
-  margin: 0px 20px 20px 0px;
-  box-shadow: 0px 2px 2px 0px black;
+li.largecard-inline {
+  max-width:400px;
+  display: inline-block;
+  margin: 20px;
+  vertical-align: top;
 }
 
+img.gallery-photo {
+ width: 400px;
+ height: auto;
+ padding: 40px 40px;
+ margin: 10px 10px;
+ box-shadow: 0px 2px 2px 0px black;
+}
 
+.contact-image {
+    border-radius: 15px;
+    width: 400px;
+    height: auto;
+    float: left;
+    margin: 0px 20px 20px 0px;
+    box-shadow: 0px 2px 2px 0px black;
+  
+}
 
+.contact-link {
+  color:#eb710d;
+}
+.contact-link:hover {
+  font-size: larger;
+  color:#0399ff;
+}
 
 ul.skills {
   padding: 0;
@@ -296,22 +343,8 @@ a.social:hover {
 
 }
 
-h2
-{
-  color:#646463;
-  font-family: libre baskerville;
-
-}
 
 
 
-.currentlink {
-  color:white;
-  text-decoration: underline;
-}
-.citelink {
-  color:white;
-}
-.citelink a:hover { 
-  font-size: larger;
-}
+
+
